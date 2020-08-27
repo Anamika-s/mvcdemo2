@@ -1,4 +1,4 @@
-FROM microsoft/AspNetCore:3.1.0-aspnetcore-runtime
+FROM mcr.microsoft.com/dotnet/core/aspnet
 WORKDIR /app
 COPY /app /app
 ENTRYPOINT [ "dotnet" ,"mvcdemo2.dll" ]
